@@ -1,0 +1,46 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.card {
+  width: 100%;
+  margin: 1% 1% 0 1%;
+}
+
+.cardDragged {
+  width: 100%;
+  margin: 1% 1% 0 1%;
+  background-color: lightblue;
+}
+
+.cardHeader {
+  width: 100%;
+  background-color: #ffffff;
+  height: 5%;
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardHeaderTitle {
+  margin-left: 5%;
+}
+
+.cardBody {
+  background-color: #ffffff;
+  margin-top: 5%;
+  padding: 3% 0 3% 0;
+}
+
+.cardBodyDragging {
+  background-color: lightgrey;
+  margin-top: 5%;
+  padding: 3% 0 3% 0;
+}
+
+.cardBodyContent {
+  margin: 2% 0 0 5%;
+}
